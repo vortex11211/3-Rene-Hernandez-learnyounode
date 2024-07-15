@@ -1,4 +1,4 @@
-**Learn you Node**
+#**Learn you Node**
 Para este Sprint, será necesario tener instalado node.
 
 Puedes instalar el programa Learnyounode, desde la consola o terminal escribiendo:
@@ -22,7 +22,7 @@ Algunos de los retos requieren la instación de los siguientes paquetes:
 
 Para comprobar los retos y verificarlos utilizaremos los siguientes comandos en nuestra terminal:
 
--Ejercicio 1
+##-Ejercicio 1
 
 **node 1hello-word.js**
 
@@ -30,7 +30,7 @@ Para comprobar los retos y verificarlos utilizaremos los siguientes comandos en 
 
 **learnyounode verify 1hello-world.js**
 
--Ejercicio 2
+##-Ejercicio 2
 
 **node 2baby-steps.js 1 2 3 4**  
 
@@ -38,7 +38,7 @@ Para comprobar los retos y verificarlos utilizaremos los siguientes comandos en 
 
 **learnyounode verify 2baby-steps.js**
 
--Ejercicio 3
+##-Ejercicio 3
 
 **node 3my-firts-io.js lluvia.txt**
 
@@ -46,7 +46,7 @@ Para comprobar los retos y verificarlos utilizaremos los siguientes comandos en 
 
 **learnyounode verify 3my-first-io.js**
 
--Ejercicio 4
+##-Ejercicio 4
 
 **node 4my-firstasync-io.js lluvia.txt**
 
@@ -54,7 +54,7 @@ Para comprobar los retos y verificarlos utilizaremos los siguientes comandos en 
 
 **learnyounode 4my-firstasync-io.js**
 
--Ejercicio 5
+##-Ejercicio 5
 
 **node 5ls-filter.js dirTest txt** 
 
@@ -67,7 +67,7 @@ y para verificarlo utilizamos como en los anterioes:
 
 **learnyounode verify 5ls-filter.js**
 
--Ejercicio 6
+##-Ejercicio 6
 
 **node 6modularMain.js ./dirTest txt**
 
@@ -75,7 +75,7 @@ y para verificarlo utilizamos como en los anterioes:
 
 **learnyounode verify 6modularMain.js**
 
--Ejercicio 7
+##-Ejercicio 7
 
 **node 7clienteHTTP.js http://www.example.org/**
 
@@ -83,13 +83,13 @@ y para verificarlo utilizamos como en los anterioes:
 
 Se puede ejecutar el programa en un entorno de pruebas
 
-**learnyounode run 7clienteHTTP.js.js**
+**learnyounode run 7clienteHTTP.js**
 
 y para verificarlo utilizamos como en los anterioes:
 
 **learnyounode verify 7clienteHTTP.js**
 
--Ejercicio 8
+##-Ejercicio 8
 
 **node 8httpColect.js http://www.example.org/**
 
@@ -103,7 +103,7 @@ y para verificarlo utilizamos como en los anterioes:
 
 **learnyounode verify 8httpColect.js**
 
--Ejercicio 9
+##-Ejercicio 9
 
 **node 9malabares.js http:example.org http:example.com http:example.org**
 
@@ -117,7 +117,7 @@ y para verificarlo utilizamos como en los anterioes:
 
 **learnyounode verify 9malabares.js**
 
--Ejercicio 10
+##-Ejercicio 10
 
 **node 10timeServer.js 8000**
 
@@ -130,7 +130,7 @@ y para verificarlo utilizamos como en los anterioes:
 
 **learnyounode verify 10timeServer.js**
 
--Ejercicio 11
+##-Ejercicio 11
 
 **node 11fileServer.js 8000 lluvia.txt**
 
@@ -146,7 +146,7 @@ y para verificarlo utilizamos como en los anterioes:
 
 **learnyounode verify 11fileServer.js**
 
--Ejercicio 12
+##-Ejercicio 12
 
 **node 12httpUpperCase.js 3000**
 
@@ -162,7 +162,7 @@ y para verificarlo utilizamos como en los anterioes:
 
 **learnyounode verify 12httpUpperCase.js**
 
--Ejercicio 13
+##-Ejercicio 13
 
 **node 13http-json-api-server.js 3000**
 

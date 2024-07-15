@@ -16,8 +16,6 @@ fs.readdir(directori, (err, contenido) =>{
         }
        }
     
-  
-
-     });
+       });
 
 

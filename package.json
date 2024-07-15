@@ -2,5 +2,20 @@
   "dependencies": {
     "bl": "^6.0.14",
     "through2-map": "^4.0.0"
-  }
+  },
+  "name": "sprint3",
+  "version": "1.0.0",
+  "description": "**Learn you Node**\r Para este Sprint, será necesario tener instalado node.",
+  "main": "10timeServer.js",
+  "devDependencies": {
+    "@types/node": "^20.14.10",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }
