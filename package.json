@@ -9,13 +9,16 @@
   "description": "**Learn you Node**\r Para este Sprint, será necesario tener instalado node.",
   "main": "10timeServer.js",
   "devDependencies": {
+    "@types/jest": "^29.5.12",
     "@types/node": "^20.14.10",
     "@types/through2-map": "^3.0.4",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.2.2",
     "ts-node": "^10.9.2",
     "typescript": "^5.5.3"
   },
   "scripts": {
     "test": "jest",
-    "build":"tsc"
+    "build": "tsc"
   }
-  }
+}
