@@ -1,5 +1,5 @@
 import * as http from 'http'
-import bl from 'bl'
+import {BufferListStream}  from 'bl'
 
 let pages:string[]=[]
 let i: number =0
@@ -15,7 +15,7 @@ function printResults(){
  
 function getPage(index:number){
   http.get(process.argv[index+2], (response)=>{
-    response.pipe(bl(function (err:any, data:string){
+    response.pipe(BufferListStream(function(err, data){
         if(err)
             return console.error(err)
         pages[index]=data.toString()
